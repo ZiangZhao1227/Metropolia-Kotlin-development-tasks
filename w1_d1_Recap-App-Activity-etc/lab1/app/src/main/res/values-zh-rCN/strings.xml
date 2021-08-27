@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">实验1</string>
+    <string name="hello_world">你好世界</string>
+    <string name="goodbye_summer">夏天再见</string>
+    <string name="click_me">点击我</string>
+    <string name="numberTwo">二</string>
+    <string name="hello">嗨</string>
+    <string name="write_something">随便写点...</string>
+</resources>

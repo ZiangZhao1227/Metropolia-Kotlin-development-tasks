@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">lab1</string>
+    <string name="numberTwo">2</string>
+    <string name="hello_world">Hello World</string>
+    <string name="goodbye_summer">Goodbye Summer</string>
+    <string name="click_me">Click me</string>
+    <string name="hello">Hello</string>
+    <string name="write_something">Write something...</string>
+    <string name="content_description_media">This is a Card view</string>
+    <string name="nice_summer">Nice Summer</string>
+    <string name="what_a_nice_view">what a nice view</string>
+    <string name="like">I like it</string>
+    <string name="this_is_a_fab_button">This is a FAB button</string>
+    <string name="favorite_description">favorite description</string>
+    <string name="search_description">search description</string>
+    <string name="more_description">more description</string>
+    <string name="more">more</string>
+    <string name="search">search</string>
+    <string name="favorite">favorite</string>
+    <string name="help">help</string>
+</resources>
