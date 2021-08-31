@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
             content_et.text.clear()
 
 
-            val snack = Snackbar.make(it,"Text Changed", Snackbar.LENGTH_SHORT)
+            val snack = Snackbar.make(it,"Text Changed", Snackbar.LENGTH_INDEFINITE)
                 .setAction("I got it") {
                     // Responds to click on the action
                 }
