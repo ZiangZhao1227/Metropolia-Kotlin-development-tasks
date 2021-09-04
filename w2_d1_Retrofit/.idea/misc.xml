@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Appplications/Android/Metropolia 3rd year tasks/w1_d1_Fragments/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Appplications/Android/Metropolia 3rd year tasks/w1_d1_Fragments/app/src/main/res/layout/fragment_one.xml" value="0.36666666666666664" />
+        <entry key="..\:/Appplications/Android/Metropolia 3rd year tasks/w1_d1_Fragments/app/src/main/res/layout/fragment_two.xml" value="0.33" />
+        <entry key="..\:/Appplications/Android/Metropolia 3rd year tasks/w1_d1_Fragments/app/src/main/res/layout/item_custom_row.xml" value="0.36666666666666664" />
+        <entry key="..\:/Appplications/Android/w1_d1_Fragments/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Appplications/Android/w1_d1_Fragments/app/src/main/res/layout/blank_fragment.xml" value="0.33" />
+        <entry key="..\:/Appplications/Android/w1_d1_Fragments/app/src/main/res/layout/example_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Appplications/Android/w1_d1_Fragments/app/src/main/res/layout/example_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Appplications/Android/w1_d1_Fragments/app/src/main/res/layout/fragment_blank.xml" value="0.1" />
+        <entry key="..\:/Appplications/Android/w1_d1_Fragments/app/src/main/res/layout/fragment_item.xml" value="0.1" />
+        <entry key="..\:/Appplications/Android/w1_d1_Fragments/app/src/main/res/layout/fragment_item_list.xml" value="0.33" />
+        <entry key="..\:/Appplications/Android/w1_d1_Fragments/app/src/main/res/layout/fragment_one.xml" value="0.36666666666666664" />
+        <entry key="..\:/Appplications/Android/w1_d1_Fragments/app/src/main/res/layout/fragment_two.xml" value="0.36666666666666664" />
+        <entry key="..\:/Appplications/Android/w1_d1_Fragments/app/src/main/res/layout/item_custom_row.xml" value="0.2246376811594203" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
