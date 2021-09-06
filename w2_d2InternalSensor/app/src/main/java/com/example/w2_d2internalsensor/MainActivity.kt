@@ -109,10 +109,10 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
     override fun onSensorChanged(event: SensorEvent?) {
         // Checks for the sensor we have registered
         if (event?.sensor?.type == Sensor.TYPE_ACCELEROMETER) {
-            Log.d(
+     /*       Log.d(
                 "Main",
                 "onSensorChanged: sides ${event.values[0]} front/back ${event.values[1]} "
-            )
+            )*/
 
             // Sides = Tilting phone left(10) and right(-10)
             val sides = event.values[0]
@@ -140,10 +140,10 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
 
         if (event?.sensor?.type == Sensor.TYPE_LIGHT) {
             val light1 = event.values[0]
-            Log.d(
+   /*         Log.d(
                 "light",
                 "onSensorChanged: sides ${light1} } "
-            )
+            )*/
 
             circle.text = " up/down: ${upDownNum.toInt()}\n" +
                     "left/right: ${sidesNum.toInt()}\n " +
@@ -152,20 +152,20 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
         }
 
         if (event?.sensor?.type == Sensor.TYPE_GYROSCOPE) {
-            Log.d(
+         /*   Log.d(
                 "gyro",
                 "onSensorChanged: sides x ${event.values[0]} y ${event.values[1]} z ${event.values[2]} "
-            )
+            )*/
             GxValue.text = "xValue: "+ event.values[0].toString()
             GyValue.text = "yValue: "+ event.values[1].toString()
             GzValue.text = "zValue: "+ event.values[2].toString()
         }
 
         if (event?.sensor?.type == Sensor.TYPE_MAGNETIC_FIELD) {
-            Log.d(
+   /*         Log.d(
                 "gyro",
                 "onSensorChanged: sides x ${event.values[0]} y ${event.values[1]} z ${event.values[2]} "
-            )
+            )*/
             MxValue.text = "xValue: "+ event.values[0].toString()
             MyValue.text = "yValue: "+ event.values[1].toString()
             MzValue.text = "zValue: "+ event.values[2].toString()
