@@ -136,9 +136,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
                 circle.setBackgroundResource(R.drawable.circle)
             }
 
-        }
-
-        if (event?.sensor?.type == Sensor.TYPE_LIGHT) {
+        } else if (event?.sensor?.type == Sensor.TYPE_LIGHT) {
             val light1 = event.values[0]
    /*         Log.d(
                 "light",
@@ -150,25 +148,24 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
                     "Sensor: $light1\n${brightness(light1)}"
             pb.setProgressWithAnimation(light1)
         }
-
-        if (event?.sensor?.type == Sensor.TYPE_GYROSCOPE) {
+        else if (event?.sensor?.type == Sensor.TYPE_GYROSCOPE) {
          /*   Log.d(
                 "gyro",
                 "onSensorChanged: sides x ${event.values[0]} y ${event.values[1]} z ${event.values[2]} "
             )*/
-            GxValue.text = "xValue: "+ event.values[0].toString()
-            GyValue.text = "yValue: "+ event.values[1].toString()
-            GzValue.text = "zValue: "+ event.values[2].toString()
+            GxValue.text = getString(R.string.vaule, "x", event.values[0])//"xValue: "+ event.values[0].toString()
+            GyValue.text = getString(R.string.vaule, "y", event.values[1])
+            GzValue.text = getString(R.string.vaule, "z", event.values[2])
         }
 
-        if (event?.sensor?.type == Sensor.TYPE_MAGNETIC_FIELD) {
+        else if (event?.sensor?.type == Sensor.TYPE_MAGNETIC_FIELD) {
    /*         Log.d(
                 "gyro",
                 "onSensorChanged: sides x ${event.values[0]} y ${event.values[1]} z ${event.values[2]} "
             )*/
-            MxValue.text = "xValue: "+ event.values[0].toString()
-            MyValue.text = "yValue: "+ event.values[1].toString()
-            MzValue.text = "zValue: "+ event.values[2].toString()
+            MxValue.text = getString(R.string.vaule, "x", event.values[0])
+            MyValue.text = getString(R.string.vaule, "y", event.values[1])
+            MzValue.text = getString(R.string.vaule, "z", event.values[2])
         }
 
 

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">w2_d2 Internal Sensor</string>
+    <string name="vaule">%s Value: %.2f</string>
 </resources>

@@ -58,6 +58,12 @@ class MainActivity : AppCompatActivity(), LocationListener {
                 0f,
                 this
             )
+            lm.requestLocationUpdates(
+                LocationManager.GPS_PROVIDER,
+                0,
+                0f,
+                this
+            )
             Toast.makeText(this,"Start tracking location",Toast.LENGTH_SHORT).show()
 
 
@@ -86,7 +92,7 @@ class MainActivity : AppCompatActivity(), LocationListener {
         try {
             val d = Log.d(
                 "GEOLOCATION",
-                "new latitude: ${p0.latitude} and longitude: ${p0.longitude} speed ${p0.speed}"
+                "new latitude: ${p0.latitude} and longitude: ${p0.longitude} speed ${p0.speed} provider ${p0.provider}"
             )
             latitudeNum = p0.latitude
             longitudeNum = p0.longitude
