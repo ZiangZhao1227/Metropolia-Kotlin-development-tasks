@@ -56,7 +56,7 @@ class FirstFragment : Fragment() {
 
     private fun writeMessage() {
         try {
-            activity?.openFileOutput("testFile.txt", Context.MODE_APPEND).use {
+            activity?.openFileOutput(FILENNAME, Context.MODE_APPEND).use {
                 it?.write("${editText.text}\n".toByteArray())
             }
             editText.text.clear()

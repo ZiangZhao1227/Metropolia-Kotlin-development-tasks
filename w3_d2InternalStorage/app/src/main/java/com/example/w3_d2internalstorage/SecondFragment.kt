@@ -37,9 +37,9 @@ class SecondFragment : Fragment() {
         binding.buttonSecond.setOnClickListener {
             findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
         }
-        binding.btnRead.setOnClickListener {
+        //binding.btnRead.setOnClickListener {
             readMessage()
-        }
+        //}
     }
 
     override fun onDestroyView() {
@@ -48,7 +48,7 @@ class SecondFragment : Fragment() {
     }
 
     private fun readMessage() {
-        textview_second.text = activity?.openFileInput("testFile.txt")?.bufferedReader().use {
+        textview_second.text = activity?.openFileInput(FILENNAME)?.bufferedReader().use {
             it?.readText() ?: getString(R.string.read_file_failed)
         }
     }

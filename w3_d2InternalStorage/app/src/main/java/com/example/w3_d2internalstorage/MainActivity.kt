@@ -14,6 +14,7 @@ import com.example.w3_d2internalstorage.databinding.ActivityMainBinding
 import kotlinx.android.synthetic.main.fragment_first.*
 import java.lang.Exception
 
+const val FILENNAME = "testFile.txt"
 
 class MainActivity : AppCompatActivity() {
 
